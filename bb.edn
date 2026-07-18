@@ -1,0 +1,3 @@
+{:paths ["." "src" "test"]
+ :deps {com.etzhayyim/ie-flow {:local/root "../com-etzhayyim-ie-flow"}}
+ :tasks {test {:task (load-file "run_tests.clj")}}}

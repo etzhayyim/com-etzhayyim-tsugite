@@ -43,7 +43,7 @@
 
 #?(:clj
    (def ^:private here-dir
-     (-> *file* io/file .getCanonicalFile .getParentFile .getParentFile)))
+     (-> *file* io/file .getCanonicalFile .getParentFile .getParentFile .getParentFile .getParentFile)))
 
 #?(:clj
    (defn default-seed-path []

@@ -1,0 +1,6 @@
+{:west/project "orgs/etzhayyim/com-etzhayyim-tsugite"
+ :root {:path "root" :revision "ae6832f7ed09147a18b0416de18b44b00c95562a"}
+ :dependencies
+ [{:name "ie-flow"
+   :path "orgs/etzhayyim/com-etzhayyim-ie-flow"
+   :revision "35d36d912c9596dbc5094947b60202d9abdf61e6"}]}

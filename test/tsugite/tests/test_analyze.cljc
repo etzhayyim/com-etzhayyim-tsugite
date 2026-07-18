@@ -21,7 +21,7 @@
             [clojure.java.io :as io]
             [tsugite.methods.analyze :as analyze]))
 
-(def actor-dir (-> *file* io/file .getParentFile .getParentFile))
+(def actor-dir (-> *file* io/file .getParentFile .getParentFile .getParentFile .getParentFile))
 (def seed (io/file actor-dir "data" "seed-peoples-graph.kotoba.edn"))
 
 (defn load-seed [] (analyze/load-file* seed))

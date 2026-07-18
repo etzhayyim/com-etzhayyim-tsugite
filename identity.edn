@@ -1,0 +1,4 @@
+{:repository/id "etzhayyim/com-etzhayyim-tsugite"
+ :actor/id "tsugite"
+ :canonical-path "orgs/etzhayyim/com-etzhayyim-tsugite"
+ :canonical-format :edn}

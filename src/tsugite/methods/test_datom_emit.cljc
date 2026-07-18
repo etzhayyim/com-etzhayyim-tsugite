@@ -12,6 +12,7 @@
 
 (def seed
   (-> (clojure.java.io/file *file*) .getParentFile .getParentFile
+      .getParentFile .getParentFile
       (clojure.java.io/file "data" "seed-peoples-graph.kotoba.edn")
       str))
 

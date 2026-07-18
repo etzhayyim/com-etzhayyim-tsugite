@@ -107,7 +107,7 @@
      "CLI entry: render coverage-report.md from a seed EDN graph."
      [& argv]
      (let [argv (vec argv)
-           here (-> *file* clojure.java.io/file .getParentFile .getParentFile)
+           here (-> *file* clojure.java.io/file .getParentFile .getParentFile .getParentFile .getParentFile)
            seed (if (and (seq argv) (not (str/starts-with? (first argv) "--")))
                   (clojure.java.io/file (first argv))
                   (clojure.java.io/file here "data" "seed-peoples-graph.kotoba.edn"))

@@ -1,4 +1,5 @@
 {:paths ["src"]
+ :deps {com.etzhayyim/ie-flow {:local/root "../com-etzhayyim-ie-flow"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner

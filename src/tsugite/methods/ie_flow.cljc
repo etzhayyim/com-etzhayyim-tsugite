@@ -23,7 +23,7 @@
             [etzhayyim.ie-flow.metrics :as iem]
             [clojure.string :as str]))
 
-(def default-seed "20-actors/tsugite/data/seed-peoples-graph.kotoba.edn")
+(def default-seed "data/seed-peoples-graph.kotoba.edn")
 
 (defn- bearer-rows
   "Per-bearer rows: raw inbound peril load (volume — scattered jeopardy) + continuity-priority
